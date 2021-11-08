@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CriadorCores</string>
+    <string name="nova_cor">Nova Cor</string>
+    <string name="ffffff">#FFFFFF</string>
+    <string name="salvar">SALVAR</string>
+    <string name="cancelar">CANCELAR</string>
+</resources>
