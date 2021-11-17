@@ -11,7 +11,7 @@
 9-->C:\Users\dudu\Documents\IFPB\PDM\WorkSpace\Pratica03\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\dudu\Documents\IFPB\PDM\WorkSpace\Pratica03\app\src\main\AndroidManifest.xml:5:5-31:19
+11-->C:\Users\dudu\Documents\IFPB\PDM\WorkSpace\Pratica03\app\src\main\AndroidManifest.xml:5:5-37:19
 12        android:allowBackup="true"
 12-->C:\Users\dudu\Documents\IFPB\PDM\WorkSpace\Pratica03\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -29,7 +29,7 @@
 20        android:theme="@style/Theme.CriadorCores" >
 20-->C:\Users\dudu\Documents\IFPB\PDM\WorkSpace\Pratica03\app\src\main\AndroidManifest.xml:11:9-50
 21        <activity
-21-->C:\Users\dudu\Documents\IFPB\PDM\WorkSpace\Pratica03\app\src\main\AndroidManifest.xml:12:9-20:20
+21-->C:\Users\dudu\Documents\IFPB\PDM\WorkSpace\Pratica03\app\src\main\AndroidManifest.xml:12:9-26:20
 22            android:name="com.example.criadorcores.MainActivity"
 22-->C:\Users\dudu\Documents\IFPB\PDM\WorkSpace\Pratica03\app\src\main\AndroidManifest.xml:13:13-41
 23            android:exported="true" >
@@ -44,24 +44,34 @@
 27-->C:\Users\dudu\Documents\IFPB\PDM\WorkSpace\Pratica03\app\src\main\AndroidManifest.xml:18:17-77
 27-->C:\Users\dudu\Documents\IFPB\PDM\WorkSpace\Pratica03\app\src\main\AndroidManifest.xml:18:27-74
 28            </intent-filter>
-29        </activity>
-30        <activity
-30-->C:\Users\dudu\Documents\IFPB\PDM\WorkSpace\Pratica03\app\src\main\AndroidManifest.xml:22:9-30:20
-31            android:name="com.example.criadorcores.SecondActivity"
-31-->C:\Users\dudu\Documents\IFPB\PDM\WorkSpace\Pratica03\app\src\main\AndroidManifest.xml:23:13-67
-32            android:exported="true" >
-32-->C:\Users\dudu\Documents\IFPB\PDM\WorkSpace\Pratica03\app\src\main\AndroidManifest.xml:24:13-36
-33            <intent-filter>
-33-->C:\Users\dudu\Documents\IFPB\PDM\WorkSpace\Pratica03\app\src\main\AndroidManifest.xml:15:13-19:29
-34                <action android:name="android.intent.action.MAIN" />
-34-->C:\Users\dudu\Documents\IFPB\PDM\WorkSpace\Pratica03\app\src\main\AndroidManifest.xml:16:17-69
-34-->C:\Users\dudu\Documents\IFPB\PDM\WorkSpace\Pratica03\app\src\main\AndroidManifest.xml:16:25-66
-35
-36                <category android:name="android.intent.category.LAUNCHER" />
-36-->C:\Users\dudu\Documents\IFPB\PDM\WorkSpace\Pratica03\app\src\main\AndroidManifest.xml:18:17-77
-36-->C:\Users\dudu\Documents\IFPB\PDM\WorkSpace\Pratica03\app\src\main\AndroidManifest.xml:18:27-74
-37            </intent-filter>
-38        </activity>
-39    </application>
+29            <intent-filter>
+29-->C:\Users\dudu\Documents\IFPB\PDM\WorkSpace\Pratica03\app\src\main\AndroidManifest.xml:21:13-24:29
+30                <action android:name="CRIADOR" />
+30-->C:\Users\dudu\Documents\IFPB\PDM\WorkSpace\Pratica03\app\src\main\AndroidManifest.xml:22:17-49
+30-->C:\Users\dudu\Documents\IFPB\PDM\WorkSpace\Pratica03\app\src\main\AndroidManifest.xml:22:25-47
+31
+32                <category android:name="android.intent.category.DEFAULT" />
+32-->C:\Users\dudu\Documents\IFPB\PDM\WorkSpace\Pratica03\app\src\main\AndroidManifest.xml:23:17-75
+32-->C:\Users\dudu\Documents\IFPB\PDM\WorkSpace\Pratica03\app\src\main\AndroidManifest.xml:23:27-73
+33            </intent-filter>
+34        </activity>
+35        <activity
+35-->C:\Users\dudu\Documents\IFPB\PDM\WorkSpace\Pratica03\app\src\main\AndroidManifest.xml:28:9-36:20
+36            android:name="com.example.criadorcores.SecondActivity"
+36-->C:\Users\dudu\Documents\IFPB\PDM\WorkSpace\Pratica03\app\src\main\AndroidManifest.xml:29:13-67
+37            android:exported="true" >
+37-->C:\Users\dudu\Documents\IFPB\PDM\WorkSpace\Pratica03\app\src\main\AndroidManifest.xml:30:13-36
+38            <intent-filter>
+38-->C:\Users\dudu\Documents\IFPB\PDM\WorkSpace\Pratica03\app\src\main\AndroidManifest.xml:15:13-19:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->C:\Users\dudu\Documents\IFPB\PDM\WorkSpace\Pratica03\app\src\main\AndroidManifest.xml:16:17-69
+39-->C:\Users\dudu\Documents\IFPB\PDM\WorkSpace\Pratica03\app\src\main\AndroidManifest.xml:16:25-66
 40
-41</manifest>
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->C:\Users\dudu\Documents\IFPB\PDM\WorkSpace\Pratica03\app\src\main\AndroidManifest.xml:18:17-77
+41-->C:\Users\dudu\Documents\IFPB\PDM\WorkSpace\Pratica03\app\src\main\AndroidManifest.xml:18:27-74
+42            </intent-filter>
+43        </activity>
+44    </application>
+45
+46</manifest>
